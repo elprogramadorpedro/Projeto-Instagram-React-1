@@ -6,7 +6,7 @@ export default function Corpo() {
     return (
         <div className="corpo">
             <Esquerdo />
-            {/* <Sidebar /> */}
+            <Sidebar />
         </div>
     );
 }
@@ -15,6 +15,7 @@ function Esquerdo() {
     return (
         <div className="esquerda">
             <Stories />
+            <Feed />
         </div>
     );
 }
