@@ -1,6 +1,7 @@
 
 import Stories from "./Stories";
 import Feed from "./Feed";
+import Sidebar from "./Sidebar";
 
 export default function Corpo() {
     return (
@@ -20,10 +21,3 @@ function Esquerdo() {
     );
 }
 
-function Sidebar() {
-    return (
-        <div className="sidebar">
-            
-        </div>
-    );
-}

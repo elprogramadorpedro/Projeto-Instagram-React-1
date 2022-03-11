@@ -2,6 +2,13 @@ export default function Stories() {
 	return (
 		<div className="stories">
 			<Story />
+			<div class="setinha">
+				<ion-icon
+					name="chevron-forward-circle"
+					role="img"
+					class="md hydrated"
+					aria-label="chevron forward circle"></ion-icon>
+			</div>
 		</div>
 	);
 }
